@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Book</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Guest Book</h1>
+        <form id="guestForm">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="text" id="class" placeholder="Kelas" required>
+            <textarea id="purpose" placeholder="Kepentingan" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="guestList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
